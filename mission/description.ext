@@ -1,0 +1,30 @@
+class CfgFunctions {
+    class SixNine {
+        class shared {
+            class initACRE { preInit = 1; };
+        }
+    };
+};
+
+// Setup basic respawn settings
+respawn = "BASE";
+respawnDelay = 10;
+// Execute player respawn scripts on mission start without actually respawning the player
+respawnOnStart = 0;
+
+// Enable the debug console for logged-in admins
+enableDebugConsole = 1;
+
+// Enable corpse/wreck cleanup
+corpseManagerMode = 1;
+corpseLimit = 15;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 300;
+wreckManagerMod = 1;
+wreckLimit = 15;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 300;
+minPlayerDistance = 50;
+
+// Setup basic mission presentation options
+author="69th Infantry Division";
