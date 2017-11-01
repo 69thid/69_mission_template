@@ -17,6 +17,9 @@ if(isClass(configfile >> "CfgPatches" >> "rhs_main")) then {
     rhs_vehicleRadioChatter = 0;
 };
 
+// Set advanced sling loading rules
+ASL_SLING_RULES_OVERRIDE = [["Air", "CAN_SLING", "Ship"], ["Air", "CAN_SLING", "Air"]];
+
 // Disable ambient life (rabbits & snakes) once the mission starts
 waitUntil {time > 0};
 enableEnvironment[false, true];
