@@ -2,6 +2,9 @@ class CfgFunctions {
     class SixNine {
         class shared {
             class initACRE { preInit = 1; };
+            class createPatient {};
+            class initPatientSpawner {};
+            class deleteAllPatients {};
         }
     };
 };
@@ -27,4 +30,6 @@ wreckRemovalMaxTime = 300;
 minPlayerDistance = 50;
 
 // Setup basic mission presentation options
-author="69th Infantry Division";
+author = "69th Infantry Division";
+overviewPicture = "images\69_mission_logo.jpg";
+loadScreen = "images\69_mission_logo.jpg";
