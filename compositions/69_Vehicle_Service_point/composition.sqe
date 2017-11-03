@@ -1,0 +1,354 @@
+version=53;
+center[]={14252.01,10.104132,16224.76};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="OW Airbase";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Layer";
+				name="69 Vehicle Service Point";
+				class Entities
+				{
+					items=4;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-4.5097656,10.060528,3.7402344};
+							angles[]={0.012007865,3.727133,6.2805324};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+						};
+						id=6791;
+						type="Land_HelipadSquare_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="ace_isRepairFacility";
+								expression="_this setVariable ['ace_isRepairFacility',_value, true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={0.58007813,10.959358,-3.6289063};
+							angles[]={0,5.3045092,0};
+						};
+						side="Empty";
+						flags=5;
+						class Attributes
+						{
+						};
+						id=6792;
+						type="Land_fs_feed_F";
+						atlOffset=1.9073486e-006;
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={3.4941406,10.868212,0.75292969};
+							angles[]={0.016004669,5.2883477,6.2778621};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+						};
+						id=7109;
+						type="Box_NATO_AmmoVeh_F";
+						atlOffset=1.9073486e-006;
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="ace_cargo_size";
+								expression="[_this,_value] call ace_cargo_fnc_setSize;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=-1;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item3
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={1.9902344,10.120533,-2.2597656};
+							angles[]={0.0080009829,0,6.2818484};
+						};
+						id=7111;
+						type="LT_makeLTmenu";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="LT_makeLTmenu_loadMission";
+								expression="_this setVariable ['loadMission',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="LT_makeLTmenu_manage";
+								expression="_this setVariable ['manage',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="LT_makeLTmenu_admin";
+								expression="_this setVariable ['admin',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="LT_makeLTmenu_transfer";
+								expression="_this setVariable ['transfer',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="LT_makeLTmenu_loadServer";
+								expression="_this setVariable ['loadServer',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute5
+							{
+								property="LT_makeLTmenu_loadPersonal";
+								expression="_this setVariable ['loadPersonal',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute6
+							{
+								property="LT_makeLTmenu_arsenal";
+								expression="_this setVariable ['arsenal',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							nAttributes=7;
+						};
+					};
+				};
+				id=7110;
+				atlOffset=-10.081224;
+			};
+		};
+		id=6794;
+		atlOffset=-5.2333879;
+	};
+};
+class connections
+{
+	class LinkIDProvider
+	{
+		nextID=1;
+	};
+	class Links
+	{
+		items=1;
+		class Item0
+		{
+			linkID=0;
+			item0=7111;
+			item1=7109;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+	};
+};

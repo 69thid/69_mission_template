@@ -1,0 +1,126 @@
+version=53;
+center[]={0,-185.97,0};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="69 Headless Modules";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Logic";
+				id=6761;
+				type="acex_headless_module";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="acex_headless_module_delay";
+						expression="_this setVariable ['delay',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=60;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="acex_headless_module_log";
+						expression="_this setVariable ['log',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="acex_headless_module_enabled";
+						expression="_this setVariable ['enabled',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="acex_headless_module_endMission";
+						expression="_this setVariable ['endMission',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=2;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item1
+			{
+				dataType="Logic";
+				name="HC1";
+				isPlayable=1;
+				id=6762;
+				type="HeadlessClient_F";
+			};
+			class Item2
+			{
+				dataType="Logic";
+				name="HC2";
+				isPlayable=1;
+				id=6763;
+				type="HeadlessClient_F";
+			};
+			class Item3
+			{
+				dataType="Logic";
+				name="HC3";
+				isPlayable=1;
+				id=6764;
+				type="HeadlessClient_F";
+			};
+		};
+		id=7053;
+	};
+};
