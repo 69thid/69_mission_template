@@ -8,6 +8,12 @@ if(!isServer) exitWith {};
 
 params ["_pos"];
 
+// Initialize global variables
+if(isNil "SixNine_patients") then {
+    SixNine_patients = [];
+    SixNine_patient_group = createGroup [west, false];
+};
+
 // Make sure Arma didn't delete the patient group
 if(isNull SixNine_patient_group) then {
     SixNine_patient_group = createGroup [west, false];
