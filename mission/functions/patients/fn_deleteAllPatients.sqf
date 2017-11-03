@@ -1,8 +1,11 @@
 /*
  * SixNine_fnc_deleteAllPatients: deletes all patients
  *
- * Locality: Server and client
+ * Locality: Server only
  */
+// Abort if wrong locality
+if(!isServer) exitWith {};
+
 if(isNil "SixNine_patients") exitWith {};
 
 {

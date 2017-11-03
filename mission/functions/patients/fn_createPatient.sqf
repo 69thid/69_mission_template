@@ -1,8 +1,11 @@
 /*
  * SixNine_fnc_createPatient: creates a patient (bot with random injuries)
  *
- * Locality: Server and client
+ * Locality: Server only
  */
+// Abort if wrong locality
+if(!isServer) exitWith {};
+
 params ["_pos"];
 
 // Make sure Arma didn't delete the patient group

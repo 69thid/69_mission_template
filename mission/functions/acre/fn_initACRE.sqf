@@ -1,11 +1,8 @@
 /*
  * SixNine_fnc_initACRE: configures ACRE PRC-152 & 117F radios
  *
- * Locality: Server and client (excluding headless clients)
+ * Locality: Server and client
  */
-// Abort if wrong locality
-if(!hasInterface) exitWith {};
-
 // Abort if ACRE is not preset
 if(!isClass(configfile >> "CfgPatches" >> "acre_api")) exitWith {};
 

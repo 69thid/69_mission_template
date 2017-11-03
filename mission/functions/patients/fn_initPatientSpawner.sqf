@@ -1,8 +1,11 @@
 /*
  * SixNine_fnc_initPatientSpawner: initializes patient spawner logic for an abject
  *
- * Locality: Server and client
+ * Locality: Server only
  */
+// Abort if wrong locality
+if(!isServer) exitWith {};
+
 params ["_spawner"];
 
 // Initialize global variables
