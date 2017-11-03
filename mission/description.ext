@@ -8,6 +8,10 @@ class CfgFunctions {
             class initPatientSpawner {};
             class deleteAllPatients {};
         };
+        class teleport {
+            class initTeleportPole {};
+            class openTeleportMap {};
+        };
     };
 };
 
