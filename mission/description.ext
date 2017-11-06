@@ -15,9 +15,6 @@ class CfgFunctions {
     };
 };
 
-// Setup basic respawn settings
-respawn = "BASE";
-respawnDelay = 10;
 // Execute player respawn scripts on mission start without actually respawning the player
 respawnOnStart = 0;
 
