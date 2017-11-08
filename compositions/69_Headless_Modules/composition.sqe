@@ -1,5 +1,5 @@
 version=53;
-center[]={0,-185.97,0};
+center[]={2.9875,-185.97,0.1125};
 class items
 {
 	items=1;
@@ -13,6 +13,10 @@ class items
 			class Item0
 			{
 				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={0.012500048,0,0.38749999};
+				};
 				id=6761;
 				type="acex_headless_module";
 				class CustomAttributes
@@ -99,6 +103,10 @@ class items
 			class Item1
 			{
 				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={0.51250005,0,-0.1125};
+				};
 				name="HC1";
 				isPlayable=1;
 				id=6762;
@@ -107,6 +115,10 @@ class items
 			class Item2
 			{
 				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={-0.48749995,0,-0.1125};
+				};
 				name="HC2";
 				isPlayable=1;
 				id=6763;
@@ -115,6 +127,10 @@ class items
 			class Item3
 			{
 				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={0.012500048,0,-0.1125};
+				};
 				name="HC3";
 				isPlayable=1;
 				id=6764;
