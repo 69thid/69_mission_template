@@ -18,10 +18,10 @@ asr_ai3_main_sets = [ // for each level: skilltype, [<min value>, <random value 
 	[	'general',[1.00,0.0],	'aiming',[1.00,0.0],	'spotting',[1.00,0.0]	],	// 0:  super-AI (only used for testing)
 	[	'general',[0.95,0.1],	'aiming',[0.65,0.1],	'spotting',[0.75,0.0]	],	// 1:  sf 1
 	[	'general',[0.90,0.1],	'aiming',[0.55,0.1],	'spotting',[0.75,0.0]	],	// 2:  sf 2 (recon units, divers and spotters)
-	[	'general',[0.85,0.1],	'aiming',[0.40,0.1],	'spotting',[0.65,0.0]	],	// 3:  regular 1 (regular army leaders, marksmen)
-	[	'general',[0.80,0.1],	'aiming',[0.35,0.1],	'spotting',[0.55,0.0]	],	// 4:  regular 2 (regulars)
-	[	'general',[0.80,0.1],	'aiming',[0.30,0.1],	'spotting',[0.45,0.0]	],	// 5:  militia or trained insurgents, former regulars (insurgent leaders, marksmen)
-	[	'general',[0.70,0.1],	'aiming',[0.25,0.1],	'spotting',[0.35,0.0]	],	// 6:  some military training (insurgents)
+	[	'general',[0.85,0.1],	'aiming',[0.45,0.1],	'spotting',[0.75,0.0]	],	// 3:  regular 1 (regular army leaders, marksmen)
+	[	'general',[0.85,0.1],	'aiming',[0.40,0.1],	'spotting',[0.65,0.0]	],	// 4:  regular 2 (regulars)
+	[	'general',[0.80,0.1],	'aiming',[0.35,0.1],	'spotting',[0.55,0.0]	],	// 5:  militia or trained insurgents, former regulars (insurgent leaders, marksmen)
+	[	'general',[0.80,0.1],	'aiming',[0.35,0.1],	'spotting',[0.55,0.0]	],	// 6:  some military training (insurgents)
 	[	'general',[0.65,0.1],	'aiming',[0.20,0.1],	'spotting',[0.25,0.0]	],	// 7:  no military training
 	[	'general',[0.85,0.1],	'aiming',[0.35,0.1],	'spotting',[0.40,0.0]	],	// 8:  pilot 1 (regular)
 	[	'general',[0.80,0.1],	'aiming',[0.30,0.1],	'spotting',[0.35,0.0]	],	// 9:  pilot 2 (insurgent)
