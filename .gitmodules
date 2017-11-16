@@ -1,0 +1,3 @@
+[submodule "missions/IgiLoad"]
+	path = mission/IgiLoad
+	url = https://github.com/69thid/IgiLoad
