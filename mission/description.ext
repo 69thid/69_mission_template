@@ -1,8 +1,5 @@
 class CfgFunctions {
     class SixNine {
-        class acre {
-            class initACRE { preInit = 1; };
-        };
         class patients {
             class createPatient {};
             class initPatientSpawner {};
