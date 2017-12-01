@@ -1,17 +1,3 @@
-class CfgFunctions {
-    class SixNine {
-        class patients {
-            class createPatient {};
-            class initPatientSpawner {};
-            class deleteAllPatients {};
-        };
-        class teleport {
-            class initTeleportPole {};
-            class openTeleportMap {};
-        };
-    };
-};
-
 // Execute player respawn scripts on mission start without actually respawning the player
 respawnOnStart = 0;
 
