@@ -20,6 +20,3 @@ if(isClass(configfile >> "CfgPatches" >> "rhs_main")) then {
 // Disable ambient life (rabbits & snakes) once the mission starts
 waitUntil {time > 0};
 enableEnvironment[false, true];
-
-// Initialize IgiLoad system (after the mission starts)
-[] execVM "IgiLoad\IgiLoadInit.sqf";
