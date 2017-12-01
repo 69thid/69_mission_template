@@ -1,5 +1,5 @@
 version=53;
-center[]={15191.188,-2.0903129e-021,17290.992};
+center[]={15191.245,-2.0903129e-021,17290.92};
 class items
 {
 	items=1;
@@ -9,13 +9,13 @@ class items
 		name="69 Personnel Spawn";
 		class Entities
 		{
-			items=20;
+			items=19;
 			class Item0
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5625,19.743187,-6.9921875};
+					position[]={7.5048828,19.743187,-6.9199219};
 					angles[]={0,2.3561945,0};
 				};
 				side="Empty";
@@ -81,7 +81,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={4.5625,18.001438,-5.9414063};
+							position[]={4.5048828,18.001438,-5.8691406};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -91,38 +91,6 @@ class items
 							rank="COLONEL";
 							description="Sheppard 6 @1/69th Command";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3872;
 						type="B_officer_F";
@@ -194,7 +162,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={9.5625,18.002106,-0.94140625};
+							position[]={9.5048828,18.002106,-0.86914063};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -204,44 +172,6 @@ class items
 							rank="MAJOR";
 							description="Warden 6";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3873;
 						type="B_Helipilot_F";
@@ -332,7 +262,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.5625,18.001438,-6.9414063};
+							position[]={3.5048828,18.001438,-6.8691406};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -342,38 +272,6 @@ class items
 							rank="COLONEL";
 							description="Viking 6 ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3874;
 						type="B_officer_F";
@@ -445,7 +343,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={5.5625,18.001438,-4.9414063};
+							position[]={5.5048828,18.001438,-4.8691406};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -455,38 +353,6 @@ class items
 							rank="LIEUTENANT";
 							description="Saracen 6 ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3875;
 						type="B_officer_F";
@@ -595,7 +461,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={1.5625,18.001438,-8.9414063};
+							position[]={1.5048828,18.001438,-8.8691406};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -605,38 +471,6 @@ class items
 							rank="CAPTAIN";
 							description="Ghost Actual @SF Ghost";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="SF_Beret";
-							};
 						};
 						id=3877;
 						type="B_medic_F";
@@ -727,7 +561,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-2.9375,17.99544,-7.4414063};
+							position[]={-2.9951172,17.99544,-7.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -737,38 +571,6 @@ class items
 							rank="SERGEANT";
 							description="Ghost ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="SF_Beret";
-							};
 						};
 						id=3878;
 						type="B_medic_F";
@@ -859,7 +661,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.9375,17.994104,-6.4414063};
+							position[]={-3.9951172,17.994104,-6.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -869,38 +671,6 @@ class items
 							rank="SERGEANT";
 							description="Ghost ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="SF_Beret";
-							};
 						};
 						id=3879;
 						type="B_medic_F";
@@ -991,7 +761,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-4.9375,17.992773,-5.4414063};
+							position[]={-4.9951172,17.992773,-5.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -1001,38 +771,6 @@ class items
 							rank="SERGEANT";
 							description="Ghost";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="SF_Beret";
-							};
 						};
 						id=3880;
 						type="B_medic_F";
@@ -1123,7 +861,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.9375,17.99144,-4.4414063};
+							position[]={-5.9951172,17.99144,-4.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -1133,38 +871,6 @@ class items
 							rank="SERGEANT";
 							description="Ghost ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="SF_Beret";
-							};
 						};
 						id=3881;
 						type="B_medic_F";
@@ -1255,7 +961,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-6.9375,17.990107,-3.4414063};
+							position[]={-6.9951172,17.990107,-3.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -1265,38 +971,6 @@ class items
 							rank="SERGEANT";
 							description="Ghost ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="SF_Beret";
-							};
 						};
 						id=3882;
 						type="B_medic_F";
@@ -1387,7 +1061,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.9375,17.988771,-2.4414063};
+							position[]={-7.9951172,17.988771,-2.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -1397,38 +1071,6 @@ class items
 							rank="SERGEANT";
 							description="Ghost ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="SF_Beret";
-							};
 						};
 						id=3883;
 						type="B_medic_F";
@@ -1556,7 +1198,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={2.5625,18.001438,-7.9414063};
+							position[]={2.5048828,18.001438,-7.8691406};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -1566,38 +1208,6 @@ class items
 							rank="SERGEANT";
 							description="Viking 7 @Alpha Company";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3885;
 						type="B_soldier_exp_F";
@@ -1688,7 +1298,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={4.0625,18.001438,-0.44140625};
+							position[]={4.0048828,18.001438,-0.36914063};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -1698,38 +1308,6 @@ class items
 							rank="SERGEANT";
 							description="Platoon Medic";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3886;
 						type="B_medic_F";
@@ -1820,7 +1398,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.0625,18.001438,0.55859375};
+							position[]={3.0048828,18.001438,0.63085938};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -1830,39 +1408,6 @@ class items
 							rank="CORPORAL";
 							description="Platoon UAV Operator";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="B_UavTerminal";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3887;
 						type="B_soldier_UAV_F";
@@ -1953,7 +1498,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={2.0625,18.001438,1.5585938};
+							position[]={2.0048828,18.001438,1.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -1962,38 +1507,6 @@ class items
 						{
 							description="Platoon Marksman";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3888;
 						type="B_Sharpshooter_F";
@@ -2065,7 +1578,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={1.0625,18.000774,2.5585938};
+							position[]={1.0048828,18.000774,2.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -2074,38 +1587,6 @@ class items
 						{
 							description="Platoon RTO";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3889;
 						type="B_Soldier_F";
@@ -2214,7 +1695,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.5625,18.001438,-2.9414063};
+							position[]={3.5048828,18.001438,-2.8691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -2224,38 +1705,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 1 SL @Sabre 1";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3891;
 						type="B_Soldier_SL_F";
@@ -2327,7 +1776,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={2.5625,18.001438,-1.9414063};
+							position[]={2.5048828,18.001438,-1.8691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -2336,38 +1785,6 @@ class items
 						{
 							description="Sabre 1 Medic";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3892;
 						type="B_medic_F";
@@ -2458,7 +1875,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={2.0625,18.001438,-0.44140625};
+							position[]={2.0048828,18.001438,-0.36914063};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -2468,38 +1885,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 1-1 TL ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3893;
 						type="B_Soldier_TL_F";
@@ -2571,7 +1956,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={1.0625,18.000774,0.55859375};
+							position[]={1.0048828,18.000774,0.63085938};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -2580,38 +1965,6 @@ class items
 						{
 							description="Sabre 1-1 CLS";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3894;
 						type="B_medic_F";
@@ -2683,7 +2036,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={1.0625,18.000774,-1.4414063};
+							position[]={1.0048828,18.000774,-1.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -2693,38 +2046,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 1-2 TL";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3895;
 						type="B_Soldier_TL_F";
@@ -2796,7 +2117,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={0.0625,17.999439,-0.44140625};
+							position[]={0.0048828125,17.999439,-0.36914063};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -2805,38 +2126,6 @@ class items
 						{
 							description="Sabre 1-2 CLS";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3896;
 						type="B_medic_F";
@@ -2908,7 +2197,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={0.0625,17.999441,1.5585938};
+							position[]={0.0048828125,17.999441,1.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -2917,39 +2206,6 @@ class items
 						{
 							description="Sabre 1-1 Grenadier";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3897;
 						type="B_Soldier_F";
@@ -3021,7 +2277,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-0.9375,17.998108,2.5585938};
+							position[]={-0.99511719,17.998108,2.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3030,38 +2286,6 @@ class items
 						{
 							description="Sabre 1-1 AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3898;
 						type="B_Soldier_F";
@@ -3133,7 +2357,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-1.9375,17.996775,3.5585938};
+							position[]={-1.9951172,17.996775,3.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3142,38 +2366,6 @@ class items
 						{
 							description="Sabre 1-1 Asst. AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3899;
 						type="B_Soldier_F";
@@ -3245,7 +2437,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-2.9375,17.995441,4.5585938};
+							position[]={-2.9951172,17.995441,4.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3254,39 +2446,6 @@ class items
 						{
 							description="Sabre 1-1 Rifleman (LAT)";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3900;
 						type="B_Soldier_F";
@@ -3358,7 +2517,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-0.9375,17.998106,0.55859375};
+							position[]={-0.99511719,17.998106,0.63085938};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3367,39 +2526,6 @@ class items
 						{
 							description="Sabre 1-2 Grenadier";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3901;
 						type="B_Soldier_F";
@@ -3471,7 +2597,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-1.9375,17.996773,1.5585938};
+							position[]={-1.9951172,17.996773,1.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3480,38 +2606,6 @@ class items
 						{
 							description="Sabre 1-2 AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3902;
 						type="B_Soldier_F";
@@ -3583,7 +2677,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-2.9375,17.99544,2.5585938};
+							position[]={-2.9951172,17.99544,2.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3592,38 +2686,6 @@ class items
 						{
 							description="Sabre 1-2 Asst. AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3903;
 						type="B_Soldier_F";
@@ -3695,7 +2757,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.9375,17.994104,3.5585938};
+							position[]={-3.9951172,17.994104,3.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3704,39 +2766,6 @@ class items
 						{
 							description="Sabre 1-2 Rifleman (LAT)";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3904;
 						type="B_Soldier_F";
@@ -3808,7 +2837,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-4.9375,17.992773,4.5585938};
+							position[]={-4.9951172,17.992773,4.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3817,38 +2846,6 @@ class items
 						{
 							description="Sabre 1 Marksman";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3905;
 						type="B_Sharpshooter_F";
@@ -3920,7 +2917,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.9375,17.994106,5.5585938};
+							position[]={-3.9951172,17.994106,5.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -3929,38 +2926,6 @@ class items
 						{
 							description="Sabre 1 Engineer";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3906;
 						type="B_soldier_exp_F";
@@ -4088,7 +3053,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={1.5625,18.001438,-4.9414063};
+							position[]={1.5048828,18.001438,-4.8691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -4098,38 +3063,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 2 SL @Sabre 2";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3908;
 						type="B_Soldier_SL_F";
@@ -4201,7 +3134,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={0.5625,18.000109,-3.9414063};
+							position[]={0.50488281,18.000109,-3.8691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -4210,38 +3143,6 @@ class items
 						{
 							description="Sabre 2 Medic";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3909;
 						type="B_medic_F";
@@ -4332,7 +3233,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={0.0625,17.999441,-2.4414063};
+							position[]={0.0048828125,17.999441,-2.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -4342,38 +3243,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 2-1 TL ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3910;
 						type="B_Soldier_TL_F";
@@ -4445,7 +3314,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-0.9375,17.998108,-1.4414063};
+							position[]={-0.99511719,17.998108,-1.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -4454,38 +3323,6 @@ class items
 						{
 							description="Sabre 2-1 CLS";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3911;
 						type="B_medic_F";
@@ -4557,7 +3394,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-0.9375,17.998108,-3.4414063};
+							position[]={-0.99511719,17.998108,-3.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -4567,38 +3404,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 2-2 TL";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3912;
 						type="B_Soldier_TL_F";
@@ -4670,7 +3475,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-1.9375,17.996775,-2.4414063};
+							position[]={-1.9951172,17.996775,-2.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -4679,38 +3484,6 @@ class items
 						{
 							description="Sabre 2-2 CLS";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3913;
 						type="B_medic_F";
@@ -4782,7 +3555,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-1.9375,17.996773,-0.44140625};
+							position[]={-1.9951172,17.996773,-0.36914063};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -4791,39 +3564,6 @@ class items
 						{
 							description="Sabre 2-1 Grenadier";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3914;
 						type="B_Soldier_F";
@@ -4895,7 +3635,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-2.9375,17.99544,0.55859375};
+							position[]={-2.9951172,17.99544,0.63085938};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -4904,38 +3644,6 @@ class items
 						{
 							description="Sabre 2-1 AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3915;
 						type="B_Soldier_F";
@@ -5007,7 +3715,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.9375,17.994104,1.5585938};
+							position[]={-3.9951172,17.994104,1.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5016,38 +3724,6 @@ class items
 						{
 							description="Sabre 2-1 Asst. AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3916;
 						type="B_Soldier_F";
@@ -5119,7 +3795,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-4.9375,17.992773,2.5585938};
+							position[]={-4.9951172,17.992773,2.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5128,39 +3804,6 @@ class items
 						{
 							description="Sabre 2-1 Rifleman (LAT)";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3917;
 						type="B_Soldier_F";
@@ -5232,7 +3875,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-2.9375,17.995441,-1.4414063};
+							position[]={-2.9951172,17.995441,-1.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5241,39 +3884,6 @@ class items
 						{
 							description="Sabre 2-2 Grenadier";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3918;
 						type="B_Soldier_F";
@@ -5345,7 +3955,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.9375,17.994104,-0.44140625};
+							position[]={-3.9951172,17.994104,-0.36914063};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5354,38 +3964,6 @@ class items
 						{
 							description="Sabre 2-2 AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3919;
 						type="B_Soldier_F";
@@ -5457,7 +4035,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-4.9375,17.992773,0.55859375};
+							position[]={-4.9951172,17.992773,0.63085938};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5466,38 +4044,6 @@ class items
 						{
 							description="Sabre 2-2 Asst. AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3920;
 						type="B_Soldier_F";
@@ -5569,7 +4115,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.9375,17.99144,1.5585938};
+							position[]={-5.9951172,17.99144,1.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5578,39 +4124,6 @@ class items
 						{
 							description="Sabre 2-2 Rifleman (LAT)";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3921;
 						type="B_Soldier_F";
@@ -5682,7 +4195,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-6.9375,17.990107,2.5585938};
+							position[]={-6.9951172,17.990107,2.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5691,38 +4204,6 @@ class items
 						{
 							description="Sabre 2 Marksman";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3922;
 						type="B_Sharpshooter_F";
@@ -5794,7 +4275,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.9375,17.99144,3.5585938};
+							position[]={-5.9951172,17.99144,3.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5803,38 +4284,6 @@ class items
 						{
 							description="Sabre 2 Engineer";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3923;
 						type="B_soldier_exp_F";
@@ -5962,7 +4411,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-0.4375,17.998774,-6.9414063};
+							position[]={-0.49511719,17.998774,-6.8691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -5972,38 +4421,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 3 SL @Sabre 3";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3925;
 						type="B_Soldier_SL_F";
@@ -6075,7 +4492,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-1.4375,17.99744,-5.9414063};
+							position[]={-1.4951172,17.99744,-5.8691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -6084,38 +4501,6 @@ class items
 						{
 							description="Sabre 3 Medic";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3926;
 						type="B_medic_F";
@@ -6206,7 +4591,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-1.9375,17.996775,-4.4414063};
+							position[]={-1.9951172,17.996775,-4.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -6216,38 +4601,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 3-1 TL ";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3927;
 						type="B_Soldier_TL_F";
@@ -6319,7 +4672,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-2.9375,17.995441,-3.4414063};
+							position[]={-2.9951172,17.995441,-3.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -6328,38 +4681,6 @@ class items
 						{
 							description="Sabre 3-1 CLS";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3928;
 						type="B_medic_F";
@@ -6431,7 +4752,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-2.9375,17.99544,-5.4414063};
+							position[]={-2.9951172,17.99544,-5.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -6441,38 +4762,6 @@ class items
 							rank="SERGEANT";
 							description="Sabre 3-2 TL";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3929;
 						type="B_Soldier_TL_F";
@@ -6544,7 +4833,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.9375,17.994104,-4.4414063};
+							position[]={-3.9951172,17.994104,-4.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -6553,38 +4842,6 @@ class items
 						{
 							description="Sabre 3-2 CLS";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3930;
 						type="B_medic_F";
@@ -6656,7 +4913,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.9375,17.994106,-2.4414063};
+							position[]={-3.9951172,17.994106,-2.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -6665,39 +4922,6 @@ class items
 						{
 							description="Sabre 3-1 Grenadier";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3931;
 						type="B_Soldier_F";
@@ -6769,7 +4993,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-4.9375,17.992775,-1.4414063};
+							position[]={-4.9951172,17.992775,-1.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -6778,38 +5002,6 @@ class items
 						{
 							description="Sabre 3-1 AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3932;
 						type="B_Soldier_F";
@@ -6881,7 +5073,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.9375,17.99144,-0.44140625};
+							position[]={-5.9951172,17.99144,-0.36914063};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -6890,38 +5082,6 @@ class items
 						{
 							description="Sabre 3-1 Asst. AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3933;
 						type="B_Soldier_F";
@@ -6993,7 +5153,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-6.9375,17.990107,0.55859375};
+							position[]={-6.9951172,17.990107,0.63085938};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7002,39 +5162,6 @@ class items
 						{
 							description="Sabre 3-1 Rifleman (LAT)";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3934;
 						type="B_Soldier_F";
@@ -7106,7 +5233,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-4.9375,17.992773,-3.4414063};
+							position[]={-4.9951172,17.992773,-3.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7115,39 +5242,6 @@ class items
 						{
 							description="Sabre 3-2 Grenadier";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3935;
 						type="B_Soldier_F";
@@ -7219,7 +5313,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.9375,17.99144,-2.4414063};
+							position[]={-5.9951172,17.99144,-2.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7228,38 +5322,6 @@ class items
 						{
 							description="Sabre 3-2 AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3936;
 						type="B_Soldier_F";
@@ -7331,7 +5393,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-6.9375,17.990107,-1.4414063};
+							position[]={-6.9951172,17.990107,-1.3691406};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7340,38 +5402,6 @@ class items
 						{
 							description="Sabre 3-2 Asst. AR";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3937;
 						type="B_Soldier_F";
@@ -7443,7 +5473,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.9375,17.988773,-0.44140625};
+							position[]={-7.9951172,17.988773,-0.36914063};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7452,39 +5482,6 @@ class items
 						{
 							description="Sabre 3-2 Rifleman (LAT)";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								gps="ItemGPS";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3938;
 						type="B_Soldier_F";
@@ -7556,7 +5553,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-8.9375,17.98744,0.55859375};
+							position[]={-8.9951172,17.98744,0.63085938};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7565,38 +5562,6 @@ class items
 						{
 							description="Sabre 3 Marksman";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3939;
 						type="B_Sharpshooter_F";
@@ -7668,7 +5633,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.9375,17.988771,1.5585938};
+							position[]={-7.9951172,17.988771,1.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7677,38 +5642,6 @@ class items
 						{
 							description="Sabre 3 Engineer";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3940;
 						type="B_soldier_exp_F";
@@ -7836,7 +5769,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.0625,18.001438,2.5585938};
+							position[]={3.0048828,18.001438,2.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7846,38 +5779,6 @@ class items
 							rank="CAPTAIN";
 							description="JTAC Lead@JTAC";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_Multicam_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3942;
 						type="B_recon_JTAC_F";
@@ -7949,7 +5850,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={4.0625,18.001438,1.5585938};
+							position[]={4.0048828,18.001438,1.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -7959,38 +5860,6 @@ class items
 							rank="SERGEANT";
 							description="JTAC";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_Multicam_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3943;
 						type="B_recon_JTAC_F";
@@ -8062,7 +5931,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={5.0625,18.001438,0.55859375};
+							position[]={5.0048828,18.001438,0.63085938};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -8072,38 +5941,6 @@ class items
 							rank="SERGEANT";
 							description="JTAC";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_Multicam_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3944;
 						type="B_recon_JTAC_F";
@@ -8212,7 +6049,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={2.0625,18.001438,5.5585938};
+							position[]={2.0048828,18.001438,5.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -8222,55 +6059,6 @@ class items
 							rank="CAPTAIN";
 							description="Fixed Wing Lead @Fixed Wing";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="FIR_Fighter_Pilot_Nomex4";
-									isBackpack=0;
-									class MagazineCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="SmokeShell";
-											count=1;
-											ammoLeft=1;
-										};
-										class Item1
-										{
-											name="Chemlight_green";
-											count=1;
-											ammoLeft=1;
-										};
-									};
-									class ItemCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="ACE_fieldDressing";
-											count=2;
-										};
-										class Item1
-										{
-											name="ACE_morphine";
-											count=1;
-										};
-									};
-								};
-								class backpack
-								{
-									typeName="B_Parachute";
-									isBackpack=1;
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="tf_microdagr";
-								radio="tf_anprc152_15";
-								gps="ItemcTab";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3946;
 						type="B_Pilot_F";
@@ -8342,7 +6130,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.0625,18.001438,4.5585938};
+							position[]={3.0048828,18.001438,4.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -8352,55 +6140,6 @@ class items
 							rank="LIEUTENANT";
 							description="Fixed Wing Pilot";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="FIR_Fighter_Pilot_Nomex4";
-									isBackpack=0;
-									class MagazineCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="SmokeShell";
-											count=1;
-											ammoLeft=1;
-										};
-										class Item1
-										{
-											name="Chemlight_green";
-											count=1;
-											ammoLeft=1;
-										};
-									};
-									class ItemCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="ACE_fieldDressing";
-											count=2;
-										};
-										class Item1
-										{
-											name="ACE_morphine";
-											count=1;
-										};
-									};
-								};
-								class backpack
-								{
-									typeName="B_Parachute";
-									isBackpack=1;
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="tf_microdagr";
-								radio="tf_anprc152_15";
-								gps="ItemcTab";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3947;
 						type="B_Pilot_F";
@@ -8472,7 +6211,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={4.0625,18.001438,3.5585938};
+							position[]={4.0048828,18.001438,3.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -8482,55 +6221,6 @@ class items
 							rank="LIEUTENANT";
 							description="Fixed Wing Pilot";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="FIR_Fighter_Pilot_Nomex4";
-									isBackpack=0;
-									class MagazineCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="SmokeShell";
-											count=1;
-											ammoLeft=1;
-										};
-										class Item1
-										{
-											name="Chemlight_green";
-											count=1;
-											ammoLeft=1;
-										};
-									};
-									class ItemCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="ACE_fieldDressing";
-											count=2;
-										};
-										class Item1
-										{
-											name="ACE_morphine";
-											count=1;
-										};
-									};
-								};
-								class backpack
-								{
-									typeName="B_Parachute";
-									isBackpack=1;
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="tf_microdagr";
-								radio="tf_anprc152_15";
-								gps="ItemcTab";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3948;
 						type="B_Pilot_F";
@@ -8602,7 +6292,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={5.0625,18.001438,2.5585938};
+							position[]={5.0048828,18.001438,2.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -8612,55 +6302,6 @@ class items
 							rank="LIEUTENANT";
 							description="Fixed Wing Pilot";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="FIR_Fighter_Pilot_Nomex4";
-									isBackpack=0;
-									class MagazineCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="SmokeShell";
-											count=1;
-											ammoLeft=1;
-										};
-										class Item1
-										{
-											name="Chemlight_green";
-											count=1;
-											ammoLeft=1;
-										};
-									};
-									class ItemCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="ACE_fieldDressing";
-											count=2;
-										};
-										class Item1
-										{
-											name="ACE_morphine";
-											count=1;
-										};
-									};
-								};
-								class backpack
-								{
-									typeName="B_Parachute";
-									isBackpack=1;
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="tf_microdagr";
-								radio="tf_anprc152_15";
-								gps="ItemcTab";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3949;
 						type="B_Pilot_F";
@@ -8732,7 +6373,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={6.0625,18.001438,1.5585938};
+							position[]={6.0048828,18.001438,1.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -8742,55 +6383,6 @@ class items
 							rank="LIEUTENANT";
 							description="Fixed Wing Pilot";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="FIR_Fighter_Pilot_Nomex4";
-									isBackpack=0;
-									class MagazineCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="SmokeShell";
-											count=1;
-											ammoLeft=1;
-										};
-										class Item1
-										{
-											name="Chemlight_green";
-											count=1;
-											ammoLeft=1;
-										};
-									};
-									class ItemCargo
-									{
-										items=2;
-										class Item0
-										{
-											name="ACE_fieldDressing";
-											count=2;
-										};
-										class Item1
-										{
-											name="ACE_morphine";
-											count=1;
-										};
-									};
-								};
-								class backpack
-								{
-									typeName="B_Parachute";
-									isBackpack=1;
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="tf_microdagr";
-								radio="tf_anprc152_15";
-								gps="ItemcTab";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3950;
 						type="B_Pilot_F";
@@ -8899,7 +6491,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={8.5625,18.001438,2.0585938};
+							position[]={8.5048828,18.001438,2.1308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -8909,44 +6501,6 @@ class items
 							rank="LIEUTENANT";
 							description="Rotary Lead @Rotary Wing";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3952;
 						type="B_Helipilot_F";
@@ -9037,7 +6591,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={8.0625,18.001438,3.5585938};
+							position[]={8.0048828,18.001438,3.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9047,44 +6601,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3953;
 						type="B_Helipilot_F";
@@ -9156,7 +6672,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={7.0625,18.001438,2.5585938};
+							position[]={7.0048828,18.001438,2.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9166,44 +6682,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3954;
 						type="B_Helipilot_F";
@@ -9275,7 +6753,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={7.0625,18.001438,4.5585938};
+							position[]={7.0048828,18.001438,4.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9285,44 +6763,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3955;
 						type="B_Helipilot_F";
@@ -9394,7 +6834,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={6.0625,18.001438,3.5585938};
+							position[]={6.0048828,18.001438,3.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9404,44 +6844,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3956;
 						type="B_Helipilot_F";
@@ -9513,7 +6915,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={6.0625,18.001438,5.5585938};
+							position[]={6.0048828,18.001438,5.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9523,44 +6925,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3957;
 						type="B_Helipilot_F";
@@ -9632,7 +6996,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={5.0625,18.001438,4.5585938};
+							position[]={5.0048828,18.001438,4.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9642,44 +7006,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3958;
 						type="B_Helipilot_F";
@@ -9751,7 +7077,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={5.0625,18.000769,6.5585938};
+							position[]={5.0048828,18.000769,6.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9761,44 +7087,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3959;
 						type="B_Helipilot_F";
@@ -9870,7 +7158,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={4.0625,18.001438,5.5585938};
+							position[]={4.0048828,18.001438,5.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9880,44 +7168,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3960;
 						type="B_Helipilot_F";
@@ -9989,7 +7239,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={4.0625,17.999435,7.5585938};
+							position[]={4.0048828,17.999435,7.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -9999,44 +7249,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3961;
 						type="B_Helipilot_F";
@@ -10108,7 +7320,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.0625,18.000769,6.5585938};
+							position[]={3.0048828,18.000769,6.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -10118,44 +7330,6 @@ class items
 							rank="LIEUTENANT";
 							description="Helicopter Crew";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3962;
 						type="B_Helipilot_F";
@@ -10227,7 +7401,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.0625,17.998102,8.5585938};
+							position[]={3.0048828,17.998102,8.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -10237,44 +7411,6 @@ class items
 							rank="LIEUTENANT";
 							description="Flight Medic";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3963;
 						type="B_helicrew_F";
@@ -10365,7 +7501,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={2.0625,17.999437,7.5585938};
+							position[]={2.0048828,17.999437,7.6308594};
 							angles[]={0,2.3561945,0};
 						};
 						side="West";
@@ -10375,44 +7511,6 @@ class items
 							rank="LIEUTENANT";
 							description="Flight Medic";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OGA_Crye_od_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=4;
-										class Item0
-										{
-											name="ACE_MapTools";
-											count=1;
-										};
-										class Item1
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-										class Item2
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item3
-										{
-											name="G_Aviator";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152";
-								gps="ItemGPS";
-								headgear="Aviation_Beret";
-							};
 						};
 						id=3964;
 						type="B_helicrew_F";
@@ -10540,7 +7638,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={6.5625,18.001438,-3.9414063};
+							position[]={6.5048828,18.001438,-3.8691406};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -10550,38 +7648,6 @@ class items
 							rank="LIEUTENANT";
 							description="Mission Team @Mission Team";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3966;
 						type="B_officer_F";
@@ -10653,7 +7719,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={7.5625,18.001438,-2.9414063};
+							position[]={7.5048828,18.001438,-2.8691406};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -10663,38 +7729,6 @@ class items
 							rank="LIEUTENANT";
 							description="Mission Team";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3967;
 						type="B_officer_F";
@@ -10766,7 +7800,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={8.5625,18.001438,-1.9414063};
+							position[]={8.5048828,18.001438,-1.8691406};
 							angles[]={0,5.497787,0};
 						};
 						side="West";
@@ -10776,38 +7810,6 @@ class items
 							rank="LIEUTENANT";
 							description="Mission Team";
 							isPlayable=1;
-							class Inventory
-							{
-								class uniform
-								{
-									typeName="VSM_OCP_Crye_Camo";
-									isBackpack=0;
-									class ItemCargo
-									{
-										items=3;
-										class Item0
-										{
-											name="rhs_googles_clear";
-											count=1;
-										};
-										class Item1
-										{
-											name="ACE_EarPlugs";
-											count=1;
-										};
-										class Item2
-										{
-											name="rhsusf_ANPVS_15";
-											count=1;
-										};
-									};
-								};
-								map="ItemMap";
-								compass="ItemCompass";
-								watch="ItemWatch";
-								radio="tf_anprc152_4";
-								headgear="Airborne_Beret";
-							};
 						};
 						id=3968;
 						type="B_officer_F";
@@ -10909,17 +7911,17 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.061523438,18.824968,13.259766};
-					angles[]={0.0013439035,0,0.0013439035};
+					position[]={0.086914063,18.74851,13.009766};
+					angles[]={0.0013372133,0,0.0013372133};
 				};
 				side="Empty";
 				flags=4;
 				class Attributes
 				{
+					init="call{[""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
 				};
 				id=6919;
 				type="B_CargoNet_01_ammo_F";
-				atlOffset=0.076999664;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -10965,158 +7967,10 @@ class items
 			};
 			class Item12
 			{
-				dataType="Logic";
-				class PositionInfo
-				{
-					position[]={-5.9375,18,7.5078125};
-				};
-				id=6920;
-				type="LT_makeLTmenu";
-				atlOffset=0.077667236;
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="LT_makeLTmenu_loadMission";
-						expression="_this setVariable ['loadMission',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="LT_makeLTmenu_manage";
-						expression="_this setVariable ['manage',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="LT_makeLTmenu_admin";
-						expression="_this setVariable ['admin',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					class Attribute3
-					{
-						property="LT_makeLTmenu_transfer";
-						expression="_this setVariable ['transfer',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					class Attribute4
-					{
-						property="LT_makeLTmenu_loadServer";
-						expression="_this setVariable ['loadServer',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					class Attribute5
-					{
-						property="LT_makeLTmenu_loadPersonal";
-						expression="_this setVariable ['loadPersonal',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					class Attribute6
-					{
-						property="LT_makeLTmenu_arsenal";
-						expression="_this setVariable ['arsenal',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					nAttributes=7;
-				};
-			};
-			class Item13
-			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.59863281,22.018085,1.6582031};
+					position[]={-0.65625,22.018085,1.7304688};
 					angles[]={0,2.3561945,0};
 				};
 				side="Empty";
@@ -11151,18 +8005,19 @@ class items
 					nAttributes=1;
 				};
 			};
-			class Item14
+			class Item13
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-12.188477,18.743971,1.0078125};
-					angles[]={0,0,0.0012918708};
+					position[]={-11.894531,18.74444,1.0820313};
+					angles[]={-0,0,0.0012918708};
 				};
 				side="Empty";
 				flags=4;
 				class Attributes
 				{
+					init="call{[""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
 				};
 				id=6959;
 				type="B_CargoNet_01_ammo_F";
@@ -11209,12 +8064,12 @@ class items
 					nAttributes=2;
 				};
 			};
-			class Item15
+			class Item14
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={12.3125,19.025148,2.5078125};
+					position[]={11.849609,19.024607,2.5683594};
 					angles[]={0,1.3264501,0};
 				};
 				side="Empty";
@@ -11248,12 +8103,12 @@ class items
 					nAttributes=1;
 				};
 			};
-			class Item16
+			class Item15
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-1.6875,19.016479,-10.992188};
+					position[]={-1.6220703,19.016645,-10.689453};
 					angles[]={0,3.2986727,0};
 				};
 				side="Empty";
@@ -11287,12 +8142,12 @@ class items
 					nAttributes=1;
 				};
 			};
-			class Item17
+			class Item16
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-13.4375,19.000813,0.7578125};
+					position[]={-13.345703,19.001013,0.95117188};
 					angles[]={0,4.6600299,0};
 				};
 				side="Empty";
@@ -11326,12 +8181,12 @@ class items
 					nAttributes=1;
 				};
 			};
-			class Item18
+			class Item17
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.3125,19.005146,14.507813};
+					position[]={0.094726563,19.00527,14.328125};
 					angles[]={0,6.2482796,0};
 				};
 				side="Empty";
@@ -11365,10 +8220,10 @@ class items
 					nAttributes=1;
 				};
 			};
-			class Item19
+			class Item18
 			{
 				dataType="Marker";
-				position[]={-6.6875,0,8.5078125};
+				position[]={-6.7451172,0,8.5800781};
 				name="respawn_west";
 				type="respawn_inf";
 				colorName="ColorWEST";
@@ -11378,77 +8233,6 @@ class items
 			};
 		};
 		id=6971;
-		atlOffset=-8.9617481;
-	};
-};
-class connections
-{
-	class LinkIDProvider
-	{
-		nextID=6;
-	};
-	class Links
-	{
-		items=6;
-		class Item0
-		{
-			linkID=0;
-			item0=6920;
-			item1=6919;
-			class CustomData
-			{
-				type="Sync";
-			};
-		};
-		class Item1
-		{
-			linkID=1;
-			item0=6959;
-			item1=6920;
-			class CustomData
-			{
-				type="Sync";
-			};
-		};
-		class Item2
-		{
-			linkID=2;
-			item0=6920;
-			item1=6919;
-			class CustomData
-			{
-				type="Sync";
-			};
-		};
-		class Item3
-		{
-			linkID=3;
-			item0=6959;
-			item1=6920;
-			class CustomData
-			{
-				type="Sync";
-			};
-		};
-		class Item4
-		{
-			linkID=4;
-			item0=6920;
-			item1=6919;
-			class CustomData
-			{
-				type="Sync";
-			};
-		};
-		class Item5
-		{
-			linkID=5;
-			item0=6959;
-			item1=6920;
-			class CustomData
-			{
-				type="Sync";
-			};
-		};
+		atlOffset=-8.9620628;
 	};
 };
